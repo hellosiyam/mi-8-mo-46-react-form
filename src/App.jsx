@@ -6,6 +6,7 @@ import './App.css'
 // import HookForm from './component/HookForm/HookForm'
 // import RefForm from './component/RefForm'
 import ReusableForm from './component/ReusableForm/ReusableForm'
+import Grandpa from './component/Grandpa/Grandpa';
 // import StateForm from './component/StateForm'
 
 function App() {
@@ -26,8 +27,9 @@ function App() {
       {/* <StateForm></StateForm> */}
       {/* <RefForm></RefForm> */}
       {/* <HookForm></HookForm> */}
-      <ReusableForm formTittle={'Signup Form'} submitHandel={submitSignupHandel} ></ReusableForm>
-      <ReusableForm formTittle={'Update Form'} submitHandel={submitUpdateHandel} submitBtnText='Update Form'></ReusableForm>
+      {/* <ReusableForm formTittle={'Signup Form'} submitHandel={submitSignupHandel} ></ReusableForm> */}
+      {/* <ReusableForm formTittle={'Update Form'} submitHandel={submitUpdateHandel} submitBtnText='Update Form'></ReusableForm> */}
+      <Grandpa></Grandpa>
     </>
   )
 }
