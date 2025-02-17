@@ -1,6 +1,7 @@
 
 import './App.css'
-import From from './component/From'
+import Form from './component/Form'
+import StateForm from './component/StateForm'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
 
       <h1>Submit form</h1>
-      <From></From>
+      {/* <Form></Form> */}
+      <StateForm></StateForm>
     </>
   )
 }

@@ -1,5 +1,5 @@
 
-const From = () => {
+const Form = () => {
 
     const submitHandel = e => {
         e.preventDefault()
@@ -25,4 +25,4 @@ const From = () => {
     );
 };
 
-export default From;
+export default Form;
