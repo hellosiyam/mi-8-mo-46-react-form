@@ -36,7 +36,7 @@ const RefForm = () => {
                 <br />
                 <input ref={emailRef} type="email" name="email" />
                 <br />
-                <input ref={passwordRef} type="password" name="password" />
+                <input ref={passwordRef} type="password" name="password" required/>
                 <br />
                 <input type="submit" value="Submit" />
                 {
